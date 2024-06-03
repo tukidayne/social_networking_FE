@@ -1,0 +1,147 @@
+
+/* ======================== BODY TOP =================== */
+
+#avt_main{
+  cursor: pointer;
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#top_right-message{
+  height: 30px;
+  padding: 0px 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  background-color: white;
+  color: #262626;
+  margin-left: 10px;
+}
+
+#top_left-h2{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#right_body-p{
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#right_body-bold{
+  font-weight: bold;
+}
+
+.bodyContainer{
+  width: 1140px;
+  height: 400px;
+  margin: 0px auto;
+  margin-top: 80px;
+}
+
+.bodyContainer_top{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.bodyContainer_top-left{
+  width: 30%;
+  height: 100%;
+}
+
+.bodyContainer_top-right{
+  width: 70%;
+  height: 100%;
+  padding: 10px;
+}
+
+
+.bodyContainer_top_left-top{
+  display: flex;
+  width: 100%;
+  height: 40%;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.bodyContainerTop_right-top{
+  display: flex;
+  width: 100%;
+  height: 15%;
+}
+
+.bodyContainerTop_right-body{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bodyContainerTop_right-bottom{
+
+  width: 100%;
+  height:75%;
+  line-height: 27px;
+  padding-top: 10px;
+}
+
+.right_top-left{
+  display: flex;
+  width: 35%;
+  height: 100%;
+  align-items: center;
+}
+
+.right_top-right{
+  display: flex;
+  width: 65%;
+  height: 100%;
+  align-items: center;
+}
+
+.right_top-edit{
+  display: flex;
+  width: 45%;
+  height: 100%;
+  align-items: center;
+}
+
+.personal_edit{
+  display: flex;
+  width: 100%;
+}
+
+/* ======================== END BODY TOP =================== */
+
+/* ======================== BODY BOTTOM =================== */
+
+#bottom_item-img{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bodyContainer_bottom{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.bodyContainer_bottom-item{
+  width: 350px;
+  height: 350px;
+  margin: 15px 15px;
+}
+
+.bodyContainer_bottom-item:hover{
+  background-color: rgba(0,0,0,4);
+}
+
+/* ======================== END BODY BOTTOM =================== */
+

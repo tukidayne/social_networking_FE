@@ -1,0 +1,31 @@
+{
+  "personal": [
+    {
+      "id": "60acba2fd8a6f90015a9e26a",
+      "username": "phongtieumieu",
+      "name": "Trần Nguyễn Minh Nghi",
+      "description": "Vietnamese - Ho Chi Minh city",
+      "img": "https://portal.staralliance.com/imagelibrary/aux-pictures/prototype-images/avatar-default.png/@@images/image.png"
+    }
+  ],
+  "user": [
+    {
+      "email": "huynhphu1408@gmail.com",
+      "_id": "60a90dc71aedd93698ddc389",
+      "password": "$2a$10$9AxBg05AV9lYlFP2AWGSg.tTL5muZANY6hFFI4rL6erF5fsdwrLVa",
+      "avatar": "https://portal.staralliance.com/imagelibrary/aux-pictures/prototype-images/avatar-default.png/@@images/image.png",
+      "friends": [],
+      "createdAt": "2021-05-22T13:57:27.882Z",
+      "updatedAt": "2021-05-22T13:57:27.882Z",
+      "__v": 0
+    }
+  ],
+  "postNews": [
+    {
+      "id": 1,
+      "username": "phongtieumieu",
+      "content": "Tớ đang rất là vui",
+      "img": ["anh1.png", "anh2.jpg", "anh3.jpg"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+#backgroundVnpayReturn_form-bottom{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #339af0;
+  color: white;
+  border: none;
+}
+
+.backgroundVnpayReturn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+  background-color: white;
+}
+
+.backgroundVnpayReturn_form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+  height: 555px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;;
+  box-shadow: 0px 5px 15px 5px;
+}
+
+.backgroundVnpayReturn_form-top {
+  width: 100%;
+  height: 35%;
+}
+
+.backgroundVnpayReturn_form-body {
+  width: 100%;
+  height: 50%;
+  padding-top: 20px;
+}
+
+.backgroundVnpayReturn_form-bottom {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.formVnpayReturn_top-top{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 50px;
+  color: #29be7b;
+}
+
+.formVnpayReturn_top-bottom{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  font-size: 25px;
+  padding-top: 10px;
+  justify-content: center;
+  color: #29be7b;
+}
+
+.formVnpayReturn_body-item{
+  display: flex;
+  width: 100%;
+  padding: 0px 50px;
+  justify-content: space-between;
+  font-size: 16px;
+}

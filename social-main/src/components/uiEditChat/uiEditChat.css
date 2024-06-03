@@ -1,0 +1,182 @@
+#itemLeft_img {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#bottomEditChat_item-edit {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  font-size: 20px;
+}
+
+#editName_input{
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 17px;
+    border: none;
+}
+
+#formChageName_close{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 18px;
+}
+
+.backgroundEditChat,
+.backgroundEditName {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 10;
+}
+
+.backgroundEditName {
+  z-index: 11;
+}
+
+.backgroundEditChat_form {
+  position: absolute;
+  width: 500px;
+  height: 650px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 5px 15px 5px;
+  border-radius: 20px;
+}
+
+.backgroundEditChat_form-top {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 3px solid #dbdbdb;
+}
+
+.backgroundEditChat_form-body {
+  width: 100%;
+  height: 65%;
+}
+
+.backgroundEditChat_form-bottom {
+  width: 100%;
+  height: 25%;
+  padding: 10px 0px;
+}
+
+.formEditChat_body-top {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  font-size: 18px;
+  font-weight: 550;
+  align-items: center;
+  padding: 10px;
+}
+
+.formEditChat_body-bottom {
+  width: 100%;
+  height: 85%;
+  background-color: white;
+  overflow: hidden;
+}
+
+.fromEditChat_wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.fromEditChat_wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.bodyEditChat_bottom-item {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+.bodyEditChat_bottom-item:hover {
+  background-color: #efefef;
+}
+
+.bottomEditChat_item-left {
+  display: flex;
+  width: 18%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomEditChat_item-right {
+  cursor: pointer;
+  width: 72%;
+  height: 100%;
+  padding: 0px 10px;
+}
+
+.itemEditChat_right-top {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: flex-end;
+}
+
+.itemEditChat_right-bottom {
+  width: 100%;
+  height: 50%;
+  color: #8e8e8e;
+  font-size: 15px;
+}
+
+.formEditChat_bottom-item {
+  cursor: pointer;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dbdbdb;
+}
+
+.backgroundEditName_form {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400px;
+  height: 80px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 15px 5px;
+  background-color: white;
+}

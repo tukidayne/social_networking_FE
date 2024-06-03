@@ -1,0 +1,137 @@
+
+/* ------------------------------------- REGISTER ------------------------------------- */
+
+#form_top-h2 {
+  font-size: 30px;
+  color: #1c1e21;
+}
+
+#form_top-p {
+  font-size: 15px;
+  color: #1c1e21;
+}
+
+#form_top-iconClose {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#form_body-input{
+  width: 100%;
+  height: 45px;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #f5f6f7;
+  font-size: 18px;
+  outline: none;
+}
+
+#form_body-p{
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+#sex_male-label{
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+#form_bottom-buttonRegister{
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  /* background-image: linear-gradient(to right, #f99b4a, #d81e98); */
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#largeFormRegister{
+  height: 700px;
+}
+
+#smallFormRegister{
+  height: 580px;
+}
+
+.backgroundRegister {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.backgroundRegister_form {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px 5px;
+}
+
+.backgroundRegister_form-top {
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+
+.backgroundRegister_form-body {
+  width: 100%;
+  height: 65%;
+}
+
+.backgroundRegister_form-bottom {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_top-left {
+  padding-top: 15px;
+  width: 90%;
+  height: 100%;
+}
+
+.form_top-right {
+  display: flex;
+  width: 10%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.form_body-sex{ 
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.body_sex-male, .body_sex-female{
+  cursor: pointer;
+  display: flex;
+  width: 48%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #ccd0d5;
+}
+
+/* ------------------------------------- END REGISTER ------------------------------------- */

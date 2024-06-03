@@ -1,0 +1,59 @@
+
+#avt-sugges{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#name-sugges{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#name-sugges:hover{
+    text-decoration: underline;
+}
+
+#follow-sugges{
+    text-decoration: none;
+    color:rgba(var(--d69,0,149,246),1);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#follow-sugges:hover{
+    color:rgb(58, 146, 168);
+}
+
+.right-bottom-bottom{
+    display: flex;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.avt-sugges{
+    display: flex;
+    height: 50px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-sugges{
+    display: flex;
+    height: 50px;
+    width: 50%;
+    align-items: center;
+}
+
+.follow-sugges{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    width: 30%;
+    align-items: center;
+}

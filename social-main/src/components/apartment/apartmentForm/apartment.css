@@ -1,0 +1,78 @@
+
+.backgroundApartment{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.backgroundApartment_form{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 1300px;
+  height: 80%;
+  margin-top: 7%;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+}
+
+.backgroundApartment_form-left{
+  width: 20%;
+  height: 100%;
+}
+
+.backgroundApartment_form-right{
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  border-left: 1px solid #dbdbdb;
+}
+
+.formApartment_left-top{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.formApartment_left-bottom{
+  width: 100%;
+  height: 90%;
+}
+
+.leftApartment_bottom-item{
+  width: 100%;
+  height: 65px;
+  padding: 5px;
+  background-color: white;
+}
+
+.bottomApartment_item-item{
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding-left: 10px;
+  background-color: rgba(228, 230, 235, 0.35);
+  color: rgb(5, 5, 5);
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.formApartment_right-wrapper{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  overflow-y: scroll;
+}

@@ -1,0 +1,134 @@
+#bottomGroupChat_item-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#bottomGroupChat_item-icon{
+  font-size: 25px;
+  color: #3897f0;
+  font-weight: 100;
+}
+
+.backgroundGroupChat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.7);
+  z-index: 100;
+}
+
+.backgroundGroupChat_form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400px;
+  height: 630px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px 5px;
+}
+
+.backgroundGroupChat_form-top {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.backgroundGroupChat_form-bottom {
+  width: 100%;
+  height: 90%;
+  padding: 13px;
+  overflow: hidden;
+}
+
+.formGroupChat_top-left {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.formGroupChat_top-body {
+  font-weight: 550;
+  font-size: 18px;
+}
+
+.formGroupChat_top-right {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: #1ea1f7;
+  text-decoration: none;
+}
+
+.formGroupChat_wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.formGroupChat_bottom-item {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 90px;
+  border-radius: 20px;
+}
+
+.formGroupChat_wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.formGroupChat_bottom-item:hover{
+  background-color: #efefef;
+}
+
+.bottomGroupChat_item-left {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomGroupChat_item-body {
+  width: 50%;
+  height: 100%;
+  padding-left: 5px;
+}
+
+.bottomGroupChat_item-right {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  padding-right:10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.itemGroupChat_body-top {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: flex-end;
+  font-weight: bold;
+  padding: 3px 0px;
+}
+
+.itemGroupChat_body-bottom {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  font-size: 13px;
+  color: #8e8e8e;
+  padding: 3px 0px;
+}
